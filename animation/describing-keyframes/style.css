@@ -1,0 +1,52 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif; }
+
+.container pre {
+  line-height: 2; }
+.container .box {
+  position: absolute;
+  left: 23em;
+  top: 8em;
+  width: 7em;
+  height: 7em;
+  -webkit-animation: background-change 4s linear infinite;
+  animation: background-change 4s linear infinite; }
+.container .highlight {
+  position: absolute;
+  top: 4em;
+  left: 5em;
+  width: 15em;
+  height: 1.5em;
+  background-color: rgba(0, 0, 0, 0.2);
+  -webkit-animation: move-down 4s linear infinite;
+  animation: move-down 4s linear infinite; }
+
+@-webkit-keyframes background-change {
+  0% {
+    background-color: red; }
+
+  50% {
+    background-color: green; }
+
+  100% {
+    background-color: blue; } }
+@keyframes background-change {
+  0% {
+    background-color: red; }
+
+  50% {
+    background-color: green; }
+
+  100% {
+    background-color: blue; } }
+@-webkit-keyframes move-down {
+  100% {
+    top: 17em; } }
+@keyframes move-down {
+  100% {
+    top: 17em; } }
