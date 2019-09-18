@@ -1,0 +1,29 @@
+/*
+ * Collect gradients for background basis.
+ * You might visualize 'deg' to be clearer by using `repeating-linear-gradient` as well.
+ */
+
+.section-gradient {
+  background: linear-gradient(-225deg, rgb(255, 180, 149) 0%,
+                                       rgb(255, 224, 189) 15%,
+                                       rgb(255, 247, 225) 78%,
+                                       rgb(255, 242, 220) 100%);
+}
+
+.button-gradient {
+  background: linear-gradient(-205deg, rgb(245, 138, 36),
+                                       rgb(239, 178, 45));
+}
+
+.icon-gradient {
+  background: linear-gradient(-215deg, rgb(254, 153, 91) 0%,
+                                       rgb(254, 157, 97) 5%,
+                                       rgb(255, 224, 189) 27%,
+                                       rgb(255, 250, 234) 48%,
+                                       rgba(184, 222, 245, 0.5) 100%);
+}
+
+.light-gradient {
+  background: linear-gradient(30deg, rgb(223, 217, 211) 0%,
+                                     rgb(251, 251, 251) 100%);
+}
